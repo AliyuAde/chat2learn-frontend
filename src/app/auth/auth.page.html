@@ -1,0 +1,32 @@
+<ion-header>
+ <div class="login-header ion-padding">
+   <img class="logo-img" src="assets/icon/logo.png">
+ </div>
+</ion-header>
+
+<ion-content>
+  <div class="center">
+    <div heading-column-lr>
+      <h1 big-heading>LOGIN</h1>
+      <h2 small-heading>SIGN UP</h2>
+
+    </div>
+    <ion-label>Welcome to Chat2Learn developed by Chronicles Software Development Company.</ion-label>
+
+    <ion-item transparent>
+      <img icon-small src="assets/icon/email.png">
+      <ion-input [(ngModel)]="Email" placeholder="Your Email" type="text"></ion-input>
+
+    </ion-item>
+    <ion-item transparent>
+      <img icon-small src="assets/icon/pass.png">
+      <ion-input [(ngModel)]="Password" placeholder="Password" type="password"></ion-input>
+      
+    </ion-item>
+    <ion-label class="forget-password">Forget Password</ion-label>
+    <div linespace></div>
+    <ion-button color="primary" class="ion-button-class" shape="round" fill="solid" size="medium" expand="block" >LOGIN</ion-button>
+    <ion-label class="ion-text-center">Don't have Account? <span class="link-button">Sign Up</span></ion-label>
+  </div>
+
+</ion-content>

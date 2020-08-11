@@ -1,0 +1,7 @@
+{
+  "name": "chat2learn",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

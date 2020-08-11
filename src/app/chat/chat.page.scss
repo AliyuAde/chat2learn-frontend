@@ -1,0 +1,51 @@
+ion-content {
+    --overflow: hidden;
+   // overflow: hidden;
+}
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+
+}
+
+.other-message {
+    background: var(--ion-color-tertiary);
+    color: #fff;
+    margin: 8px;
+
+} 
+
+.my-message {
+    background: var(--ion-color-secondary);
+    color: #fff;
+    margin: 8px;
+
+}
+
+.time {
+    color: #dfdfdf;
+    float: right;
+    font-size: small;
+
+}
+
+.message-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    resize: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.msg-btn {
+    width: 100%;
+    height: 100%;
+    --padding-start: 0.1em;
+    --padding-end: 1em;
+
+}

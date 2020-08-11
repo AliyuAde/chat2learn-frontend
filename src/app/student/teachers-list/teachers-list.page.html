@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Teachers List</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let teacher of teachers">
+    <ion-avatar slot="start">
+      <ion-img [src]="teacher.img"></ion-img>
+    </ion-avatar>   
+    <ion-label>
+       <h3>{{ teacher.name }}</h3>
+       <p>English, Math, Physics, Chemistry</p>
+      
+        <p>
+        <ion-icon name="star" color="secondary" *ngFor="let ratin of counter(teacher.rating)"></ion-icon>
+       </p> 
+      </ion-label>
+  </ion-item>
+</ion-content>
